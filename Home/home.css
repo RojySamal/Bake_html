@@ -23,8 +23,9 @@
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #21130e;
   font-size: 200%;
+  text-shadow: 2px 0 white, 0 2px white, 2px 0 white, 0 2px white;
 }
 img {
   width: 100%;
