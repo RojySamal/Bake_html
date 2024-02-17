@@ -217,7 +217,9 @@ body {
   height: 50%;
 }
 .box4 .part2 h4 {
-  text-align: center;
+  border: 1px solid black;
+
+  text-align: right;
   font-family: Georgia, serif;
 }
 .box4 .part3 {
@@ -229,9 +231,20 @@ body {
   width: 70%;
   height: 50%;
 }
-.box4 .part3 h4 {
+.box4 .part3 .links {
+  height: 2%;
+  border: 1px solid black;
+  margin-top: 5.5%;
+  display: flex;
+  justify-content: space-between;
   text-align: center;
   font-family: Georgia, serif;
+}
+.box4 .part3 #eng {
+  border: 1px solid black;
+}
+.box4 .part3 #odia {
+  border: 1px solid black;
 }
 .box4 .part4 {
   width: 20%;
@@ -243,7 +256,9 @@ body {
   height: 50%;
 }
 .box4 .part4 h4 {
-  text-align: center;
+  border: 1px solid black;
+
+  text-align: left;
   font-family: Georgia, serif;
 }
 
