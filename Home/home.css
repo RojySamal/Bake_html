@@ -16,7 +16,6 @@ body {
   background-color: #f0f0f0;
 }
 .box1 .eng {
-  /* width: max-content; */
   font-weight: bold;
   font-family: Georgia, serif;
   position: absolute;
@@ -184,7 +183,7 @@ body {
   background-color: #f4cccc;
   display: flex;
   flex-direction: row;
-  padding-top: 2%;
+  padding-top: 1%;
 }
 .box4 .part1 {
   width: 30%;
@@ -217,9 +216,9 @@ body {
   height: 50%;
 }
 .box4 .part2 h4 {
-  border: 1px solid black;
-
+  /* border: 1px solid black; */
   text-align: right;
+  margin-top: 5%;
   font-family: Georgia, serif;
 }
 .box4 .part3 {
@@ -232,19 +231,13 @@ body {
   height: 50%;
 }
 .box4 .part3 .links {
-  height: 2%;
-  border: 1px solid black;
-  margin-top: 5.5%;
+  font-weight: bold;
+  margin-top: 5%;
   display: flex;
+  align-items: baseline;
   justify-content: space-between;
   text-align: center;
   font-family: Georgia, serif;
-}
-.box4 .part3 #eng {
-  border: 1px solid black;
-}
-.box4 .part3 #odia {
-  border: 1px solid black;
 }
 .box4 .part4 {
   width: 20%;
@@ -256,13 +249,32 @@ body {
   height: 50%;
 }
 .box4 .part4 h4 {
-  border: 1px solid black;
-
   text-align: left;
+  margin-top: 6%;
+
   font-family: Georgia, serif;
 }
 
 .box5 {
-  background-color: #f0f0f0;
-  border: 1px solid black;
+  flex: 1;
+  background-color: #f4cccc;
+  display: flex;
+  flex-direction: row;
+}
+.box5 .part1 {
+  width: 50%;
+}
+.box5 .part1 .myVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.box5 .part2 {
+  width: 50%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.box5 .part2 .contact {
+  margin: 15%;
 }
